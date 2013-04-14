@@ -1,0 +1,56 @@
+# gitignore - git will not track changes in files that match these rules
+# unless the repo is already tracking the file.
+
+*.swp
+.svn/*
+
+#avr-gcc stuff#
+*.lss
+*.eep
+*.d
+*.elf
+*.hex
+*.lst
+*.map
+*.sym
+
+# Below here copied from github example file
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
